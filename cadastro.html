@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastros</title>
+    <style type="text/css">
+        body{
+            background-image:url(fundo.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+        header{
+        background-color: gray;
+        margin: 3% 0% 3% 0% ;
+        padding-bottom: 1%;
+    }
+    p{
+
+        font-size: 200%;
+    }
+    div{
+        background-color: rgba(27, 27, 27, 0.664);
+        color: white;
+        text-align: center;
+        margin: 3% 35% 3% 35% ;
+    }
+    button{
+        width: 90px;
+        height: 20px;
+    }
+    </style>
+</head>
+<body>
+    <header><a href="login.html"id="login">login</a></header>
+    <div>
+        <p>cadastro</p>
+        <label for="usuario">usuario</label>
+        <input type="text"id="usuario"name="usuario">
+        <br>
+        <label for="email">email</label>
+        <input type="text"id="email"name="email">
+        <br>
+        <label for="senha">senha</label>
+        <input type="text"id="senha"name="senha">
+        <br>
+        <label for="data">data de nascimento</label>
+        <input type="date"id="data"name="data">
+        <br>
+        <label for="genero">genero</label>
+        <select name="genero" >
+            <option value="homem">homem</option>
+            <option value="mulher">mulher</option>
+            <option value="lgbtqia+">lgtb</option>
+            <option value="outros">prefiro não dizer</option>
+        </select>
+        <br>
+        <button name="enviar"type="submit">enviar</button>
+        <button name="limpar"type="submit">limpar</button>
+
+    </div>
+</body>
+</html>
